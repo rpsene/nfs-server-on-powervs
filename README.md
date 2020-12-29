@@ -57,7 +57,10 @@ You need to ensure you already have the boot images available in your PowerVS in
 
 ```
 
-You can get the ID of the VM and the additional storage created by looking at the directory created for each deployment. The file called server-build.log contains the details. You can use the [PowerVS Actions](https://github.com/rpsene/powervs-actions) to delete those resources when needed.
+You can get the ID of the VM and the additional storage created by looking 
+at the directory created for each deployment. The file called server-build.log 
+contains the details. You can use the [PowerVS Actions](https://github.com/rpsene/powervs-actions) 
+to delete those resources when needed.
 
 ➜  nfs-server-powervs git:(master) ✗ tree -L 2
 .
