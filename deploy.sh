@@ -125,14 +125,14 @@ function run (){
     cd ./$SERVER_NAME
 
     ### Set this variables accordingly
-    VOLUME_SIZE=200
-    SERVER_IMAGE="CentOS83-12142020"
-    PRIVATE_NETWORK="rhocpdev-powervs-private-network"
-    PUBLIC_NETWORK="ocp-46-20201228-094723-796c2924dc-pub-net"
-    SSH_KEY_NAME="rpsene"
-    SERVER_MEMORY=8
-    SERVER_PROCESSOR=1
-    SERVER_SYS_TYPE="s922"
+    VOLUME_SIZE=
+    SERVER_IMAGE=
+    PRIVATE_NETWORK=
+    PUBLIC_NETWORK=
+    SSH_KEY_NAME=
+    SERVER_MEMORY=
+    SERVER_PROCESSOR=
+    SERVER_SYS_TYPE=
     ####
 
     check_dependencies
